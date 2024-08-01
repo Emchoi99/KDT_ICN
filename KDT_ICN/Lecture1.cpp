@@ -4,16 +4,20 @@ using namespace std;
 
 int main()
 {
-    int a;
-    float b;
+    int a,b,c,d;
     
-    a = 123.45;
-    b = 200;
+    a = 100 + 100;
+    b = a + 100;
+    c = a + b - 100;
+    d = a + b + c;
+    printf("a,b,c,d의 값은 %d %d %d %d\n",a,b,c,d);
     
-    cout <<"a의 값은 " << a << " 이다" << endl;
-    cout <<"b의 값은 " << b << " 이다" << endl;
-    printf("a의 값은 %d이다\n",a);
-    printf("b의 값은 %f이다\n",b);
+    a = b = c = d = 100;
+    printf("a,b,c,d의 값은 %d %d %d %d\n",a,b,c,d);
+    
+    a = 100;
+    a = a + 200;
+    printf("a의 값은 %d\n",a);
     
     return 0;
 }
