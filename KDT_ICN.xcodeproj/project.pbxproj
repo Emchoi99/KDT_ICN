@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E35FF2C22C5B4BC80043177E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35FF2C12C5B4BC80043177E /* main.cpp */; };
+		E35FF2C22C5B4BC80043177E /* Lecture1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35FF2C12C5B4BC80043177E /* Lecture1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		E35FF2BE2C5B4BC80043177E /* KDT_ICN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KDT_ICN; sourceTree = BUILT_PRODUCTS_DIR; };
-		E35FF2C12C5B4BC80043177E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E35FF2C12C5B4BC80043177E /* Lecture1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = Lecture1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		E35FF2C02C5B4BC80043177E /* KDT_ICN */ = {
 			isa = PBXGroup;
 			children = (
-				E35FF2C12C5B4BC80043177E /* main.cpp */,
+				E35FF2C12C5B4BC80043177E /* Lecture1.cpp */,
 			);
 			path = KDT_ICN;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E35FF2C22C5B4BC80043177E /* main.cpp in Sources */,
+				E35FF2C22C5B4BC80043177E /* Lecture1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
