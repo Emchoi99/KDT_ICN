@@ -1,22 +1,34 @@
-#include <iostream>
 #include <stdio.h>
 using namespace std;
 
-int Sum (int value1, int value2)
-{
-    int result = value1 + value2;
-    return result;
-}
-
 int main()
 {
-    for(int i = 0; i < 3; i++)
-    {
-        int value1, value2;
-
-        scanf("%d %d",&value1,&value2);
-        printf("%d\n", Sum(value1, value2));
-    }
+    int score;
     
+    printf("점수를 입력하세요.\n");
+    
+    scanf("%d",&score);
+    
+    
+    if(score >= 90 && score <= 100)
+    {
+        printf("A학점입니다.\n");
+    }
+    else if(score < 90 && score >= 80)
+    {
+        printf("B학점입니다.\n");
+    }
+    else if(score < 80 && score >= 70)
+    {
+        printf("C학점입니다.\n");
+    }
+    else if(score < 70 && score >= 60)
+    {
+        printf("D학점입니다.\n");
+    }
+    else if(score < 60 && 0 <= score)
+    {
+        printf("F학점입니다.\n");
+    }
     return 0;
 }
