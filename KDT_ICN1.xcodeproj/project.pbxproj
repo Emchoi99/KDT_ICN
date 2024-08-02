@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E35FF2BE2C5B4BC80043177E /* KDT_ICN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KDT_ICN; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35FF2BE2C5B4BC80043177E /* KDT_ICN1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KDT_ICN1; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35FF2C12C5B4BC80043177E /* Lecture1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = Lecture1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		E35FF2B52C5B4BC80043177E = {
 			isa = PBXGroup;
 			children = (
-				E35FF2C02C5B4BC80043177E /* KDT_ICN */,
+				E35FF2C02C5B4BC80043177E /* KDT_ICN1 */,
 				E35FF2BF2C5B4BC80043177E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		E35FF2BF2C5B4BC80043177E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E35FF2BE2C5B4BC80043177E /* KDT_ICN */,
+				E35FF2BE2C5B4BC80043177E /* KDT_ICN1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E35FF2C02C5B4BC80043177E /* KDT_ICN */ = {
+		E35FF2C02C5B4BC80043177E /* KDT_ICN1 */ = {
 			isa = PBXGroup;
 			children = (
 				E35FF2C12C5B4BC80043177E /* Lecture1.cpp */,
 			);
-			path = KDT_ICN;
+			path = KDT_ICN1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E35FF2BD2C5B4BC80043177E /* KDT_ICN */ = {
+		E35FF2BD2C5B4BC80043177E /* KDT_ICN1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E35FF2C52C5B4BC80043177E /* Build configuration list for PBXNativeTarget "KDT_ICN" */;
+			buildConfigurationList = E35FF2C52C5B4BC80043177E /* Build configuration list for PBXNativeTarget "KDT_ICN1" */;
 			buildPhases = (
 				E35FF2BA2C5B4BC80043177E /* Sources */,
 				E35FF2BB2C5B4BC80043177E /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = KDT_ICN;
+			name = KDT_ICN1;
 			productName = KDT_ICN;
-			productReference = E35FF2BE2C5B4BC80043177E /* KDT_ICN */;
+			productReference = E35FF2BE2C5B4BC80043177E /* KDT_ICN1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E35FF2B92C5B4BC80043177E /* Build configuration list for PBXProject "KDT_ICN" */;
+			buildConfigurationList = E35FF2B92C5B4BC80043177E /* Build configuration list for PBXProject "KDT_ICN1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E35FF2BD2C5B4BC80043177E /* KDT_ICN */,
+				E35FF2BD2C5B4BC80043177E /* KDT_ICN1 */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E35FF2B92C5B4BC80043177E /* Build configuration list for PBXProject "KDT_ICN" */ = {
+		E35FF2B92C5B4BC80043177E /* Build configuration list for PBXProject "KDT_ICN1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E35FF2C32C5B4BC80043177E /* Debug */,
@@ -269,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E35FF2C52C5B4BC80043177E /* Build configuration list for PBXNativeTarget "KDT_ICN" */ = {
+		E35FF2C52C5B4BC80043177E /* Build configuration list for PBXNativeTarget "KDT_ICN1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E35FF2C62C5B4BC80043177E /* Debug */,
